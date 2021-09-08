@@ -1,0 +1,1 @@
+int luckyNumber() => 25;

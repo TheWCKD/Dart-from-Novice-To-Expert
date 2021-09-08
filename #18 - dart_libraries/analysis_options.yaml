@@ -1,0 +1,21 @@
+# Defines a default set of lint rules enforced for projects at Google. For
+# details and rationale, see
+# https://github.com/dart-lang/pedantic#enabled-lints.
+
+include: package:very_good_analysis/analysis_options.yaml
+
+# For lint rules and documentation, see http://dart-lang.github.io/linter/lints.
+
+
+# Uncomment to specify additional rules.
+linter:
+  rules:
+    avoid_print: false
+    omit_local_variable_types: false
+    sort_constructors_first: false
+    prefer_if_null_operators: false
+    unused_local_variable: false
+    cascade_invocations: false
+    lines_longer_than_80_chars: false
+    public_member_api_docs: false
+    

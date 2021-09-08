@@ -1,0 +1,1 @@
+class UnsolvablePerimeterException with Exception {}
